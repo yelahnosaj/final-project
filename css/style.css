@@ -60,7 +60,7 @@ nav{
     font-size: 14px;    
 }
 .foot-links a{
-    color:rgb(24, 21, 21);
+    color:#000;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -161,7 +161,7 @@ html {
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .Contact-Title{
     margin-top: 100px;
@@ -172,10 +172,12 @@ html {
 .Contact-Title h1{
     font-size: 32px;
     line-height: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .Contact-Title h2{
     font-size: 16px;
     line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 form{
     margin-top: 50px;
@@ -190,6 +192,8 @@ form{
     color: #fff;
     font-size: 18px;
     margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 input{
     height: 45px;
